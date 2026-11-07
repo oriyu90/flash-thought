@@ -1,0 +1,26 @@
+.gradle/
+build/
+app/build/
+local.properties
+*.jks
+*.keystore
+keystore.properties
+*.apk
+
+# 開発用の共有署名鍵。privateリポジトリ内の Common Rules 配下でのみ追跡する。
+!docs/common-rules/
+!docs/common-rules/memory-flashcards-development.jks
+
+# Gradle cache (local)
+.gradle-home/
+.gradle/
+# skill install (local)
+.agents/
+# macOS
+.DS_Store
+# local config
+local.properties
+
+.npmcache/
+.npmhome/
+shots/

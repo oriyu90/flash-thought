@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">フラッシュ思考</string>
+    <string name="home_tagline">ものの名前を思い出そう</string>
+    <string name="home_start">フラッシュ思考を始める</string>
+    <string name="home_hint">画像を見て、ものの名前を思い出します。全10問です。</string>
+    <string name="home_recent_score">最近の成績</string>
+    <string name="home_no_score">まだ挑戦していません</string>
+    <string name="home_score_value">%1$d / %2$d 問正解</string>
+    <string name="home_score_percent">正答率 %1$d%%</string>
+
+    <string name="quiz_progress">問題 %1$d / %2$d</string>
+    <string name="quiz_instruction">画像を横にスワイプして、名前を思い出しましょう。</string>
+    <string name="quiz_show_answer">答えを見る</string>
+    <string name="quiz_image_description">問題の画像 %1$d / %2$d</string>
+    <string name="quiz_image_page">%1$d / %2$d</string>
+    <string name="quiz_answer_label">答え</string>
+
+    <string name="answer_question">画像のものの名前を思い出せましたか？</string>
+    <string name="answer_correct">正解だった</string>
+    <string name="answer_again">もう一度</string>
+
+    <string name="result_title">おつかれさまでした</string>
+    <string name="result_score">%1$d / %2$d</string>
+    <string name="result_percent">正答率 %1$d%%</string>
+    <string name="result_saved">成績はホーム画面の「最近の成績」に保存されます。</string>
+    <string name="result_again">さらに解く</string>
+    <string name="result_home">ホーム</string>
+</resources>
