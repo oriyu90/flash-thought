@@ -20,14 +20,15 @@
 </head>
 <body>
   <div class="wrap">
+    <div id="page-ja">
     <h1>フラッシュ思考</h1>
     <p class="tagline">画像を見て、ものの名前を思い出そう。</p>
     <p>10問のフラッシュカードで、記憶の想起を気軽に練習できる Android アプリです。オフラインで動作し、端末内に成績を保存します。</p>
 
     <div class="card">
       <h2>ダウンロード</h2>
-      <p class="meta">最新版: v1.0.0（Android 8.0 以降）</p>
-      <a class="btn" href="https://github.com/oriyu90/flash-thought/releases/download/v1.0.0/app-release.apk">APK をダウンロード</a>
+      <p class="meta">最新版: v1.0.1（Android 8.0 以降）</p>
+      <a class="btn" href="https://github.com/oriyu90/flash-thought/releases/download/v1.0.1/app-release.apk">APK をダウンロード</a>
       <p class="meta" style="margin-top:16px;">インストール: 設定 → セキュリティ → 提供元不明のアプリを許可してから APK を開いてください。</p>
     </div>
 
@@ -39,6 +40,7 @@
         <li>縦・横画面の両方に適応</li>
         <li>直近の成績を端末内に保存</li>
         <li>通信不要・完全オフライン</li>
+        <li>日本語・英語の両対応</li>
       </ul>
     </div>
 
@@ -53,9 +55,44 @@
       </ol>
     </div>
 
+    </div>
     <footer>
       © 2026 Studio RIZI · <a href="https://github.com/oriyu90/flash-thought" style="color:#8E9099;">GitHub</a>
+      <p><a href="#en" onclick="(function(){document.documentElement.lang='en';document.getElementById('page-ja').hidden=true;document.getElementById('page-en').hidden=false;return false;})()">English</a> · <a href="#ja" onclick="(function(){document.documentElement.lang='ja';document.getElementById('page-ja').hidden=false;document.getElementById('page-en').hidden=true;return false;})()">日本語</a></p>
     </footer>
+
+    <div id="page-en" hidden>
+      <h1>Flash Thought</h1>
+      <p class="tagline">Look at the picture and recall the name.</p>
+      <p>A 10-question flashcard app for casually practicing memory recall. Works offline and saves your score on-device.</p>
+      <div class="card">
+        <h2>Download</h2>
+        <p class="meta">Latest version: v1.0.1 (Android 8.0+)</p>
+        <a class="btn" href="https://github.com/oriyu90/flash-thought/releases/download/v1.0.1/app-release.apk">Download APK</a>
+        <p class="meta" style="margin-top:16px;">Install: allow install from unknown sources in Settings, then open the APK.</p>
+      </div>
+      <div class="card">
+        <h2>Features</h2>
+        <ul>
+          <li>10 items × 3 pictures each, swipe to browse</li>
+          <li>Always-on dark theme / Material 3</li>
+          <li>Adapts to portrait and landscape</li>
+          <li>Saves your latest score on-device</li>
+          <li>No connection needed, fully offline</li>
+          <li>Japanese and English supported</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>How to use</h2>
+        <ol>
+          <li>Tap "Start Flash Thought"</li>
+          <li>Recall what each picture shows</li>
+          <li>Tap "Show answer" to check</li>
+          <li>Tap "I knew it" / "Try again" to self-grade</li>
+          <li>After 10 questions, check your result screen</li>
+        </ol>
+      </div>
+    </div>
   </div>
 </body>
 </html>

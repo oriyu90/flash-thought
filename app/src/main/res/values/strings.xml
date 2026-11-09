@@ -26,4 +26,15 @@
     <string name="result_saved">成績はホーム画面の「最近の成績」に保存されます。</string>
     <string name="result_again">さらに解く</string>
     <string name="result_home">ホーム</string>
+
+    <string name="card_name_01">パプリカ</string>
+    <string name="card_name_02">バレーボール</string>
+    <string name="card_name_03">鉛筆</string>
+    <string name="card_name_04">ボールペン</string>
+    <string name="card_name_05">色鉛筆</string>
+    <string name="card_name_06">リモコン</string>
+    <string name="card_name_07">エアコン</string>
+    <string name="card_name_08">ガスコンロ</string>
+    <string name="card_name_09">トースター</string>
+    <string name="card_name_10">洗面器</string>
 </resources>

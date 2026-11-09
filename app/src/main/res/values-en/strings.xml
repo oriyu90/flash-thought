@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flash Thought</string>
+    <string name="home_tagline">Recall the names of everyday things</string>
+    <string name="home_start">Start Flash Thought</string>
+    <string name="home_hint">Look at the picture and recall what it is. 10 questions in total.</string>
+    <string name="home_recent_score">Recent score</string>
+    <string name="home_no_score">No attempts yet</string>
+    <string name="home_score_value">%1$d / %2$d correct</string>
+    <string name="home_score_percent">Accuracy %1$d%%</string>
+
+    <string name="quiz_progress">Question %1$d / %2$d</string>
+    <string name="quiz_instruction">Swipe through the pictures and recall the name.</string>
+    <string name="quiz_show_answer">Show answer</string>
+    <string name="quiz_image_description">Question image %1$d of %2$d</string>
+    <string name="quiz_image_page">%1$d / %2$d</string>
+    <string name="quiz_answer_label">Answer</string>
+
+    <string name="answer_question">Did you recall the name of the object?</string>
+    <string name="answer_correct">I knew it</string>
+    <string name="answer_again">Try again</string>
+
+    <string name="result_title">Well done!</string>
+    <string name="result_score">%1$d / %2$d</string>
+    <string name="result_percent">Accuracy %1$d%%</string>
+    <string name="result_saved">Your score is saved under \"Recent score\" on the home screen.</string>
+    <string name="result_again">Practice again</string>
+    <string name="result_home">Home</string>
+
+    <string name="card_name_01">Paprika</string>
+    <string name="card_name_02">Volleyball</string>
+    <string name="card_name_03">Pencil</string>
+    <string name="card_name_04">Ballpoint pen</string>
+    <string name="card_name_05">Colored pencils</string>
+    <string name="card_name_06">Remote control</string>
+    <string name="card_name_07">Air conditioner</string>
+    <string name="card_name_08">Gas stove</string>
+    <string name="card_name_09">Toaster</string>
+    <string name="card_name_10">Basin</string>
+</resources>

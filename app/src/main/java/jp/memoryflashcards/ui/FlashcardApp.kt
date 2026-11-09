@@ -225,7 +225,7 @@ private fun QuizScreen(state: QuizState, onExit: () -> Unit, onAnswer: (Boolean)
 
 @Composable
 private fun CardImageArea(card: Flashcard, answerVisible: Boolean, modifier: Modifier) {
-    key(card.name) {
+    key(card.nameRes) {
         val pagerState = rememberPagerState(pageCount = { card.images.size })
         Box(modifier.clip(RoundedCornerShape(24.dp)).background(MaterialTheme.colorScheme.surfaceVariant)) {
             HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize()) { page ->
@@ -267,7 +267,7 @@ private fun CardImageArea(card: Flashcard, answerVisible: Boolean, modifier: Mod
                             style = MaterialTheme.typography.headlineSmall
                         )
                         Text(
-                            text = card.name,
+                            text = stringResource(card.nameRes),
                             color = MaterialTheme.colorScheme.primary,
                             style = MaterialTheme.typography.displaySmall,
                             textAlign = TextAlign.Center
